@@ -53,17 +53,17 @@ public class Main {
 
         // 7 задание
         var num1 = 78.2;
-        var num2 = 113.9;
+        var num2 = 82.7;
         var mod = num2 % num1;
         System.out.println(mod);
 
         // 8 задание
         var hours = 640;
-        float coworkerWorkTime = 8;
+        var coworkerWorkTime = 8;
         var numOfCoworkers = hours / coworkerWorkTime;
         System.out.println("Всего работников в компании - " + numOfCoworkers + " человек.");
         numOfCoworkers = numOfCoworkers + 94;
-        coworkerWorkTime = hours / numOfCoworkers;
-        System.out.println("Если в компании работает " + numOfCoworkers + " человек, то всего " + coworkerWorkTime + " часов работы может быть поделено между сотрудниками.");
+        hours = coworkerWorkTime * numOfCoworkers;
+        System.out.println("Если в компании работает " + numOfCoworkers + " человек, то всего " + hours + " часов работы может быть поделено между сотрудниками.");
     }
 }
